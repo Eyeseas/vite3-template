@@ -6,7 +6,7 @@ export default function App() {
 
     return (
         <div className="App absolute inset-0">
-            <nav>
+            <nav className={`flex justify-center`}>
                 <Link to="">To App</Link>
                 <Link to="profile">To profile</Link>
             </nav>

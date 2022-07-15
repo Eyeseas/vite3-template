@@ -3,6 +3,7 @@ import {useRoutes} from "react-router-dom";
 import type {RouteObject} from "react-router-dom"
 import App from "@/App";
 import Profile from "@page/Profile";
+import AppIndex from "@page/AppIndex";
 
 
 export const RootList:RouteObject[] = [
@@ -12,7 +13,7 @@ export const RootList:RouteObject[] = [
         children:[
             {
                 index:true,
-                element:<div>Index</div>
+                element:<AppIndex />
             },
             {
                 path:"profile",
