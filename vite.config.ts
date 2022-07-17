@@ -32,6 +32,10 @@ export default defineConfig({
         },
         preprocessorOptions: {
             less: {
+                //修改antd中的颜色变量 覆盖主题颜色
+                modifyVars:{
+                    // 'primary-color': 'red',
+                },
                 javascriptEnabled: true,
             },
         },
