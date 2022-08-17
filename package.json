@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^1.1.16",
     "@antv/g2": "^4.2.5",
     "@antv/g2plot": "^2.4.20",
     "@antv/g6": "^4.6.15",
+    "@hookform/error-message": "^2.0.0",
     "@reduxjs/toolkit": "^1.8.4",
     "@turf/turf": "^6.5.0",
     "ahooks": "^3.5.2",
